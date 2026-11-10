@@ -681,15 +681,6 @@ playing sessions refused with live readings, rightly. Being right repeatedly buy
 unverified claim hasn't earned; the front line looking at the running system often has better evidence.
 Seen: 2026-09-09, Reckoners — a two-agent playtest with an outside scribe.
 
-**A second long-lived agentic session doubles the bill; ~83% of cost is cache reads of its own context.**
-Measured over two full driven games: one driven seat $125, two driven seats $252 — linear in seats; a
-human teammate is free. Fresh input rounded to zero; output was 12%. The lever is context length, not
-prompt cleverness. A ~150-line deterministic script replacing re-derived arithmetic was the clearest win.
-A long (1-hour) prompt-cache TTL matters when sessions idle waiting on each other — expiries force cache
-re-writes at ~12.5x the read price. What the second seat bought was autonomy, not better play. Usage is in
-the session transcript JSONL (`message.usage` per assistant record).
-Seen: 2026-09-09, Reckoners — two complete co-op games driven by Claude.
-
 **Put rules where every session loads them.**
 A personal note about the heredoc trap did not stop a fresh session repeating it; a line in the repo's
 `CLAUDE.md` did. Lessons that must prevent a repeat belong in the always-loaded project instructions (or a

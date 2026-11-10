@@ -95,10 +95,9 @@ merge commit kept both audiences served.
 to a shared notes folder: multiactive pitfalls, Playwright driving, Studio media. That is the seed of
 this kit.
 
-**Agent co-op play as a test, used once and costed honestly.** Two full games with Claude driving
-seats found real UX friction and produced a forecasting script. That script decided the next game,
-which is good evidence the learning generalised. It cost **~$125 per driven seat per game**, and
-83% of that was cache reads. The cost lever is context length, not cleverness.
+**Agent co-op play as a test.** Two full games with Claude driving seats found real UX friction and
+produced a forecasting script. That script decided the next game, which is good evidence the
+learning generalised.
 
 ---
 
@@ -285,9 +284,6 @@ general rule: **model "who still owes an answer" explicitly. Never infer it from
   yet. Revisit if the expansion is ever built.
 - **What does a rules-audit harness look like?** Specifically, a scripted list of "this must be
   refused" moves run against a Studio table after every server change.
-- **How much agent self-play is worth buying?** At ~$125 per seat-game, what is the cheapest
-  configuration that still finds UX friction? Shorter contexts, scripted forecasting and a single
-  seat are candidates.
 - **When is the right moment to involve a tutorial group,** and what do they need from the
   developer?
 - **How early can a beta-grade wording pass happen?** Prompts and tooltips were the author's largest

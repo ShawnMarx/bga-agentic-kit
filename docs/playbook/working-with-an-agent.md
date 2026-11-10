@@ -81,14 +81,6 @@ The agent can't do these, and Reckoners lost time whenever they were left late:
   action. Reckoners' dice-spending flow was designed three times.
 - **Logins.** Studio and main-site logins are interactive. After that the harness reuses the cookies.
 
-## Cost
-
-Measured on Reckoners: a full driven game with one agent seat cost about $125, and two agent seats
-about $252. Cost was linear in seats, and roughly 83% of it was cache reads of the session's own
-context. The lever is **context length**: short skills, deterministic scripts in place of
-re-derived arithmetic, and one seat unless a second agent buys something a human teammate can't.
-Long prompt-cache TTLs matter when sessions sit waiting on each other.
-
 ## Standing authorisations worth writing down
 
 Decide these once, put them in `CLAUDE.md`, and the agent stops asking:
