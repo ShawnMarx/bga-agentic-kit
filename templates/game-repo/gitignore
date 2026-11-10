@@ -1,0 +1,26 @@
+# Copy to <game repo>/.gitignore.
+
+# === Confidential publisher material — NEVER commit (BGA T&C art. 6.b) ===
+/img/official/
+/assets/official/
+**/references/
+*.publisher.psd
+*.ttsmod
+**/TTS Mod/
+
+# === Kit config (machine-specific) ===
+.bga.env
+
+# === Dependencies / build ===
+/node_modules/
+/vendor/
+__pycache__/
+*.pyc
+
+# === Machine-local / editor / OS ===
+.claude/settings.local.json
+.vscode/
+*.code-workspace
+.DS_Store
+Thumbs.db
+*.log

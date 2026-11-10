@@ -1,0 +1,13 @@
+bga.local.env
+.bga.env
+/reference/
+__pycache__/
+*.pyc
+venv/
+.venv/
+profile/
+logs/
+.DS_Store
+.claude/settings.local.json
+# Working notes that map lessons to private sources — never publish
+docs/lessons/_sources-*.md
